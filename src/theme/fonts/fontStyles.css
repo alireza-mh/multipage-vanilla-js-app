@@ -1,0 +1,60 @@
+
+@font-face {
+  font-family: Vazir;
+  src: url('vazir/Vazir-FD-WOL.eot');
+  src: url('vazir/Vazir-FD-WOL.eot?#iefix') format('embedded-opentype'), url('vazir/Vazir-FD-WOL.woff2') format('woff2'),
+    url('vazir/Vazir-FD-WOL.woff') format('woff'), url('vazir/Vazir-FD-WOL.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('vazir/Vazir-Bold-FD-WOL.eot');
+  src: url('vazir/Vazir-Bold-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Bold-FD-WOL.woff2') format('woff2'), url('vazir/Vazir-Bold-FD-WOL.woff') format('woff'),
+    url('vazir/Vazir-Bold-FD-WOL.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('vazir/Vazir-Black-FD-WOL.eot');
+  src: url('vazir/Vazir-Black-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Black-FD-WOL.woff2') format('woff2'), url('vazir/Vazir-Black-FD-WOL.woff') format('woff'),
+    url('vazir/Vazir-Black-FD-WOL.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('vazir/Vazir-Medium-FD-WOL.eot');
+  src: url('vazir/Vazir-Medium-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Medium-FD-WOL.woff2') format('woff2'), url('vazir/Vazir-Medium-FD-WOL.woff') format('woff'),
+    url('vazir/Vazir-Medium-FD-WOL.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('vazir/Vazir-Light-FD-WOL.eot');
+  src: url('vazir/Vazir-Light-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Light-FD-WOL.woff2') format('woff2'), url('vazir/Vazir-Light-FD-WOL.woff') format('woff'),
+    url('vazir/Vazir-Light-FD-WOL.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazir;
+  src: url('vazir/Vazir-Thin-FD-WOL.eot');
+  src: url('vazir/Vazir-Thin-FD-WOL.eot?#iefix') format('embedded-opentype'),
+    url('vazir/Vazir-Thin-FD-WOL.woff2') format('woff2'), url('vazir/Vazir-Thin-FD-WOL.woff') format('woff'),
+    url('vazir/Vazir-Thin-FD-WOL.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}

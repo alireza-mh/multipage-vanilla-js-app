@@ -1,0 +1,164 @@
+@import url(/src/theme/main.css);
+.ods-text-structure{
+    font-family: Vazir;
+    font-size: 0;
+    font-style: normal;
+    line-height: 24px;
+    padding: 8px;
+    border-bottom: 1px solid var(--gray-border-color) ;
+}
+.ods-text-structure__title{
+    font-weight: normal;
+    font-size: 12px;
+    color: var(--black-text-color);
+    display: flex;
+}
+.ods-text-structure__icon{
+    color: var(--black-primary-color);
+}
+.ods-text-structure__caption{
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--gray-text-color);
+}
+
+:root {
+    --primary-color: #0077CC;
+    --black-text-color: #1F1F1F;
+    --black-primary-color: #0B0B0B;
+    --gray-text-color: #707070;
+    --gray-border-color: #E3E3E3;
+    --success-color: #008665;
+    --danger-color: #E70C3B;
+}
+
+
+@font-face {
+  font-family: Vazir;
+  src: url(../assets/Vazir-FD-WOL.eot);
+  src: url(../assets/Vazir-FD-WOL.eot?#iefix) format('embedded-opentype'), url(../assets/Vazir-FD-WOL.woff2) format('woff2'),
+    url(../assets/Vazir-FD-WOL.woff) format('woff'), url(../assets/Vazir-FD-WOL.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../assets/Vazir-Bold-FD-WOL.eot);
+  src: url(../assets/Vazir-Bold-FD-WOL.eot?#iefix) format('embedded-opentype'),
+    url(../assets/Vazir-Bold-FD-WOL.woff2) format('woff2'), url(../assets/Vazir-Bold-FD-WOL.woff) format('woff'),
+    url(../assets/Vazir-Bold-FD-WOL.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../assets/Vazir-Black-FD-WOL.eot);
+  src: url(../assets/Vazir-Black-FD-WOL.eot?#iefix) format('embedded-opentype'),
+    url(../assets/Vazir-Black-FD-WOL.woff2) format('woff2'), url(../assets/Vazir-Black-FD-WOL.woff) format('woff'),
+    url(../assets/Vazir-Black-FD-WOL.ttf) format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../assets/Vazir-Medium-FD-WOL.eot);
+  src: url(../assets/Vazir-Medium-FD-WOL.eot?#iefix) format('embedded-opentype'),
+    url(../assets/Vazir-Medium-FD-WOL.woff2) format('woff2'), url(../assets/Vazir-Medium-FD-WOL.woff) format('woff'),
+    url(../assets/Vazir-Medium-FD-WOL.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../assets/Vazir-Light-FD-WOL.eot);
+  src: url(../assets/Vazir-Light-FD-WOL.eot?#iefix) format('embedded-opentype'),
+    url(../assets/Vazir-Light-FD-WOL.woff2) format('woff2'), url(../assets/Vazir-Light-FD-WOL.woff) format('woff'),
+    url(../assets/Vazir-Light-FD-WOL.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../assets/Vazir-Thin-FD-WOL.eot);
+  src: url(../assets/Vazir-Thin-FD-WOL.eot?#iefix) format('embedded-opentype'),
+    url(../assets/Vazir-Thin-FD-WOL.woff2) format('woff2'), url(../assets/Vazir-Thin-FD-WOL.woff) format('woff'),
+    url(../assets/Vazir-Thin-FD-WOL.ttf) format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+body, button{
+    font-family: Vazir;
+}
+
+.detail-container {
+  padding: 16px;
+}
+.logo-image {
+  display: block;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.btn-primary {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  border-radius: 24px;
+  background: var(--primary-color);
+  margin: 16px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+.ods-text-structure.amount .ods-text-structure__caption {
+  color: var(--success-color);
+}
+
+.ods-payment-status{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.ods-payment-status span, .ods-payment-status img{
+    padding: 12px;
+}
+.ods-payment-status__title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+.ods-payment-status__caption{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--gray-text-color);
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-image{
+        padding-top: 10px;
+    }
+    .ods-payment-status span, .ods-payment-status img{
+        padding: 6px;
+    }
+    .ods-payment-status{
+        padding: 10px;
+    }
+    .detail-container{
+        padding: 0;
+    }
+}
+
+.btn-primary a{
+    color: white;
+    text-decoration: none;
+}
+

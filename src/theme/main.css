@@ -1,0 +1,6 @@
+@import './variables/colors.css';
+@import './fonts/fontStyles.css';
+
+body, button{
+    font-family: Vazir;
+}

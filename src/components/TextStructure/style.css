@@ -1,0 +1,24 @@
+@import '~/src/theme/main.css';
+
+.text-structure{
+    font-family: Vazir;
+    font-size: 0;
+    font-style: normal;
+    line-height: 24px;
+    padding: 8px;
+    border-bottom: 1px solid var(--gray-border-color) ;
+}
+.text-structure__title{
+    font-weight: normal;
+    font-size: 12px;
+    color: var(--black-text-color);
+    display: flex;
+}
+.text-structure__icon{
+    color: var(--black-primary-color);
+}
+.text-structure__caption{
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--gray-text-color);
+}

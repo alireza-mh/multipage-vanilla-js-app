@@ -1,0 +1,66 @@
+@import "~src/theme/main.css";
+
+.detail-container {
+  padding: 16px;
+}
+.logo-image {
+  display: block;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.btn-primary {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  border-radius: 24px;
+  background: var(--primary-color);
+  margin: 16px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+.ods-text-structure.amount .ods-text-structure__caption {
+  color: var(--success-color);
+}
+
+.ods-payment-status{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.ods-payment-status span, .ods-payment-status img{
+    padding: 12px;
+}
+.ods-payment-status__title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+.ods-payment-status__caption{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--gray-text-color);
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-image{
+        padding-top: 10px;
+    }
+    .ods-payment-status span, .ods-payment-status img{
+        padding: 6px;
+    }
+    .ods-payment-status{
+        padding: 10px;
+    }
+    .detail-container{
+        padding: 0;
+    }
+}
+
+.btn-primary a{
+    color: white;
+    text-decoration: none;
+}
