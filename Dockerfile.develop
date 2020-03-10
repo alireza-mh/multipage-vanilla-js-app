@@ -7,10 +7,10 @@ COPY yarn.lock .
 COPY .npmrc .
 
 
-RUN yarn install --registry="https://nexus.ostadkar.pro/repository/npm-all/"
+RUN yarn install
 
 COPY . .
-RUN echo "BASE_URL = dev.ostadkar.pro" > .env
+RUN echo "BASE_URL = dev.app.com" > .env
 RUN yarn build
 
 # production environment
