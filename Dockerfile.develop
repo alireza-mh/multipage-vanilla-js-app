@@ -4,7 +4,6 @@ WORKDIR /develop
 
 COPY package.json .
 COPY yarn.lock .
-COPY .npmrc .
 
 
 RUN yarn install
