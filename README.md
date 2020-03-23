@@ -10,6 +10,6 @@ Imagin that you have to deal with some dynamic page, Asume payment page. You hav
 
 ### Getting started
 So for start you can clone and then remove `.git` from the project or easily use below commnad:
-`npx degit alireza-mh/multipage-vanilla-js-app newProjectName`
+```npx degit alireza-mh/multipage-vanilla-js-app newProjectName```
 ### License
 Multipage Vanilla js app is open source software licensed as MIT.
