@@ -1,9 +1,6 @@
 import TextStructure from "src/components/TextStructure";
 import { generateSegmentedNumber } from "src/utils/number";
 import { getTime, getDate } from "src/utils/date";
-import fail from './images/fail.svg';
-import success from './images/success.svg';
-import paymentAmount from './images/payment-amount.svg';
 import "src/theme/main.css";
 import "./style.css";
 

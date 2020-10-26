@@ -87,14 +87,10 @@ module.exports = {
         ],
       },
       {
-        test: /\.(html)$/,
-        loader: 'html-loader',
-      },
-      {
         test: /\.(svg|gif|jpe?g|png|eot|ttf|woff2?)$/,
         loader: "url-loader",
         exclude: /node_modules/,
-        query: {
+        options: {
           esModule: false,
           outputPath: (url, resourcePath, context) => {
             if (!isProduction) {
