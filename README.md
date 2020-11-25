@@ -1,4 +1,5 @@
 # multipage-vanilla-js-app
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ### What is
 This boilerplate helps with web application with only vanilla js. It supports multipage and each page gonna have it's own html.
