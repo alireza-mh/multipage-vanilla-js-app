@@ -112,7 +112,6 @@ module.exports = {
     new CleanWebpackPlugin(),
     new Dotenv(),
     new MiniCssExtractPlugin({
-      disable: !isProduction,
       filename: "[name][chunkhash:4].css",
       chunkFilename: "[name].[chunkhash:4].css",
     }),
