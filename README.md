@@ -1,4 +1,4 @@
-# multipage-vanilla-js-app
+# Multipage vanilla js app
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ### What is
